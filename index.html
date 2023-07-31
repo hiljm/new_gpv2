@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-       <meta charset="UTF-8">
-
+   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
@@ -92,16 +91,18 @@
 
         .db_box ul li.birth {display: flex; align-items: center;}
         .db_box ul li.birth span.space {margin: 0 3px; color: #fff;}
-        .db_box ul li.birth span.back_digit {display: flex; align-items: center; color: #999; font-size: 15.5px; letter-spacing: -1.6px;  border-bottom: 1px solid #fff;}
+        .db_box ul li.birth span.back_digit {display: flex; align-items: center; color: #999; font-size: 15px; letter-spacing: -2px;  border-bottom: 1px solid #fff; width:50%;}
         .db_box ul li.birth input:first-child {width: 50%;}
         .db_box ul li.birth input:last-child {display: flex; align-items: center; width: 35px; margin-right: 3px; padding: 0 8px; text-align: center; letter-spacing: 0; border-bottom: none;}
         .db_box ul li.birth input:last-child::placeholder { color: #d7d7d7;}
 
-        .floating .db_box ul li.birth .back_digit {font-size: 13.6px;}
+        .floating .db_box input[type="text"] {letter-spacing:0px;}
+		.floating .db_box ul li.birth .back_digit {font-size: 13.0px; width:53%}
         .floating .db_box ul li.birth .back_digit input:last-child {width: 30px; padding: 0 5px;}
         .floating .db_box ul li.birth input:first-child {width: 40%;}
 
         .sc6 .db_box ul li.birth span.back_digit {width: 50%; letter-spacing: 5px;}
+		.sc6 .db_box input[type="text"] {letter-spacing:0px;}
 
 
 
@@ -191,7 +192,7 @@
         .floating.fixed { position: fixed; top: 220px; opacity: 1;}
         .floating .db_box {text-align: center;}
         .db_box ul {margin-top: 30px;}
-        .db_box input[type="text"] {font-size: 17.41px; letter-spacing: -2px;}
+        .db_box input[type="text"] {font-size: 17.0px; letter-spacing: -2px;}
         .floating .db_box ul {margin-top: 10px;}
         .floating .db_box ul li {margin-bottom: 10px;}
         .floating .db_box ul li.sex { top: auto;}
